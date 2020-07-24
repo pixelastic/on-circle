@@ -17,7 +17,7 @@
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "@octokit/rest": "18.0.3",
     "firost": "1.11.1",
