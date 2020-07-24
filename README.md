@@ -6,7 +6,6 @@ Provides a convenient wrapper when running scripts on CircleCI
 await onCircle(
   ({
     configureGit,
-    configureNpm,
     gitHasChanges,
     success,
     failure,
