@@ -2,7 +2,9 @@
   "devDependencies": {
     "aberlaas": "1.12.1"
   },
-  "files": ["lib/*.js"],
+  "files": [
+    "lib/*.js"
+  ],
   "license": "MIT",
   "main": "lib/main.js",
   "name": "on-circle",
@@ -15,5 +17,5 @@
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
