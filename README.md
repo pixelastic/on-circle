@@ -1,20 +1,28 @@
 # On-circle
 
-Provides a convenient wrapper when running scripts on CircleCI
+Provides a set of utility methods for configuring and running scripts on
+CircleCi. 
 
-```js
-await onCircle(
-  ({
-    configureGit,
-    gitHasChanges,
-    success,
-    failure,
-    gitCommitAndPush,
-  }) => {
-    // Your own code
-  }
-);
+## Installation
+
+```
+yarn add --dev on-circle
 ```
 
-This will catch any error, and will automatically create an issue on your repo
-with the details of the error.
+## Following a repository
+
+_⚠ You need a valid `CIRCLECI_TOKEN` variable available for this command to
+work_
+
+Will follow the current repository on CircleCI.
+
+### From the command line
+
+`yarn run oncircle follow`
+
+### From JavaScript
+
+```js
+const onCircle = require('onCircle');
+await onCircle.follow()
+```
