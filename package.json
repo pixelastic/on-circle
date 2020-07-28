@@ -8,7 +8,7 @@
     "on-circle": "bin/oncircle"
   },
   "files": [
-    "bin/reddinx",
+    "bin/oncircle",
     "lib/*.js",
     "lib/helpers/*.js",
     "lib/commands/*.js"
