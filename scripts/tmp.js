@@ -22,11 +22,6 @@ const uuid = require('firost/lib/uuid');
 
       // And push
       await gitPush();
-    },
-    {
-      gitName: 'Pixelastic',
-      gitEmail: 'tim@pixelastic.com',
-      createIssueOnError: true,
     }
   );
 })();
