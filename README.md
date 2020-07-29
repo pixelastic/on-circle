@@ -64,3 +64,5 @@ on your repository when method ran through `onCircle.run` throw errors.
 These steps can be enabled manually in JavaScript through the
 `onCircle.configureGitCommit()`, `onCircle.configureGitPush()` and
 `onCircle.configureGitIssue()` methods.
+
+**Note:** You still need to add the `add_ssh_keys` step to your CircleCI job.

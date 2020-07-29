@@ -23,8 +23,7 @@
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
     "test": "./scripts/test",
-    "test:watch": "./scripts/test-watch",
-    "tmp": "node ./scripts/tmp.js"
+    "test:watch": "./scripts/test-watch"
   },
   "version": "0.0.4",
   "dependencies": {
