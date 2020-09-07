@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "norska": "1.0.4",
+    "norska-theme-docs": "1.0.7"
+  },
+  "files": [],
+  "homepage": "https://projects.pixelastic.com/on-circle/",
+  "keywords": [],
+  "name": "on-circle-docs",
+  "private": true,
+  "scripts": {
+    "build": "../scripts/docs/build",
+    "build:prod": "../scripts/docs/build-prod",
+    "cms": "../scripts/docs/cms",
+    "lint": "../scripts/docs/lint",
+    "lint:fix": "../scripts/docs/lint-fix",
+    "serve": "../scripts/docs/serve"
+  },
+  "version": "0.1.3"
+}

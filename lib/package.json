@@ -1,0 +1,29 @@
+{
+  "bin": {
+    "on-circle": "bin/oncircle",
+    "onCircle": "bin/oncircle",
+    "oncircle": "bin/oncircle"
+  },
+  "dependencies": {
+    "@octokit/rest": "18.0.5",
+    "firost": "2.0.5",
+    "git-remote-origin-url": "3.1.0",
+    "golgoth": "1.4.0",
+    "minimist": "1.2.5",
+    "parse-github-repo-url": "1.4.1"
+  },
+  "files": ["bin/oncircle", "*.js", "helpers/*.js", "commands/*.js"],
+  "license": "MIT",
+  "main": "main.js",
+  "name": "on-circle",
+  "scripts": {
+    "ci": "../scripts/lib/ci",
+    "husky:precommit": "../scripts/lib/husky-precommit",
+    "lint": "../scripts/lib/lint",
+    "lint:fix": "../scripts/lib/lint-fix",
+    "release": "../scripts/lib/release",
+    "test": "../scripts/lib/test",
+    "test:watch": "../scripts/lib/test-watch"
+  },
+  "version": "0.1.3"
+}

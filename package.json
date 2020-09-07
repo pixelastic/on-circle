@@ -1,37 +1,29 @@
 {
+  "description": "on-circle monorepo",
   "devDependencies": {
-    "aberlaas": "1.13.0"
+    "aberlaas": "1.13.0",
+    "lerna": "3.22.1"
   },
-  "bin": {
-    "oncircle": "bin/oncircle",
-    "onCircle": "bin/oncircle",
-    "on-circle": "bin/oncircle"
-  },
-  "files": [
-    "bin/oncircle",
-    "lib/*.js",
-    "lib/helpers/*.js",
-    "lib/commands/*.js"
-  ],
-  "license": "MIT",
-  "main": "lib/main.js",
-  "name": "on-circle",
+  "files": [],
+  "homepage": "https://projects.pixelastic.com/on-circle/",
+  "keywords": [],
+  "name": "on-circle-monorepo",
+  "private": true,
   "scripts": {
+    "build": "./scripts/docs/build",
+    "build:prod": "./scripts/docs/build-prod",
     "ci": "./scripts/ci",
+    "cms": "./scripts/docs/cms",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
-    "test": "./scripts/test",
-    "test:watch": "./scripts/test-watch"
+    "serve": "./scripts/docs/serve",
+    "test": "./scripts/lib/test",
+    "test:watch": "./scripts/lib/test-watch"
   },
-  "version": "0.1.3",
-  "dependencies": {
-    "@octokit/rest": "18.0.5",
-    "firost": "2.0.5",
-    "git-remote-origin-url": "3.1.0",
-    "golgoth": "1.4.0",
-    "minimist": "1.2.5",
-    "parse-github-repo-url": "1.4.1"
-  }
+  "workspaces": [
+    "lib",
+    "docs"
+  ]
 }
