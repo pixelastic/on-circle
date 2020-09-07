@@ -1,1 +1,17 @@
 @import 'theme:style.css';
+
+
+body {
+  .theme-header {
+    @apply bg-red-1;
+  }
+  .theme-navigation-link-active {
+    @apply border-red-4;
+  }
+  .theme-navigation-link:hover {
+    @apply red-5;
+  }
+  .theme-title {
+    @apply border-red-5;
+  }
+}
