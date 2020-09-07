@@ -10714,10 +10714,10 @@ norska-theme-default@^1.0.1:
   resolved "https://registry.npmjs.org/norska-theme-default/-/norska-theme-default-1.0.1.tgz#6abc0cd6a720604f7535e0d41405f76e9545cae0"
   integrity sha512-zv4QE0vWhoFeNywQi7/c20YDqFQwIthqqJs1pT1FW+wfoZ3xz0tD7DqILRIxPnFa6VvdilHYFkuMk/xbrn+3+A==
 
-norska-theme-docs@1.0.8:
-  version "1.0.8"
-  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.0.8.tgz#b11b9e4917a2fe87b8be1cc8b9dd2393e7aa9667"
-  integrity sha512-ka8xNjNNZbMkhOghgik888+EY7gzlhkW5zFVt8TR/5FTSYGqWFKhpwdIw9G6W2e3CXrazaReasvaEH9joIoK0A==
+norska-theme-docs@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/norska-theme-docs/-/norska-theme-docs-1.0.7.tgz#194f584649e85283d4320086e8d4741920e58cc9"
+  integrity sha512-ICwC2d4XpFLI6V0RlaRIGIqaBlisDjMEE9UMD0VcSMfYYd+piTRiPB05Gqgz9MYMPeHUopLYgOBwkjVjnCpDiQ==
   dependencies:
     firost "2.0.5"
 
