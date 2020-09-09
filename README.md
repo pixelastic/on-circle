@@ -1,3 +1,10 @@
+<!-- 
+  This page was automatically generated. 
+  DO NOT EDIT IT MANUALLY.
+  Instead, update .github/README.template.md
+  and run aberlaas readme
+-->
+
 # on-circle
 
 `on-circle` provides a set of utility for configuring and running scripts on
@@ -38,7 +45,4 @@ await onCircle.run(
 
 ## Documentation
 
-Full documentation is available here: https://projects.pixelastic.com/on-circle/
-
-
-
+The complete documentation can be found on https://projects.pixelastic.com/on-circle/
