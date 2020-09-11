@@ -2589,7 +2589,7 @@ agent-base@4, agent-base@^4.3.0:
 
 agent-base@6:
   version "6.0.1"
-  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.1.tgz#808007e4e5867decb0ab6ab2f928fbdb5a596db4"
+  resolved "https://registry.npmjs.org/agent-base/-/agent-base-6.0.1.tgz#808007e4e5867decb0ab6ab2f928fbdb5a596db4"
   integrity sha512-01q25QQDwLSsyfhrKbn8yuur+JNw0H+0Y4JiGIKd3z9aYk/w/2kxD/Upc+t2ZBBSUNff50VjPsSW2YxM8QYKVg==
   dependencies:
     debug "4"
@@ -7353,7 +7353,7 @@ https-proxy-agent@^2.2.3:
 
 https-proxy-agent@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
+  resolved "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
   integrity sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
   dependencies:
     agent-base "6"
@@ -7614,7 +7614,7 @@ inquirer@^6.2.0, inquirer@^6.2.1, inquirer@^6.5.1:
 
 instantsearch.js@4.8.0:
   version "4.8.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.8.0.tgz#e58aaf7d373498e32097b705494401e2cc0248eb"
+  resolved "https://registry.npmjs.org/instantsearch.js/-/instantsearch.js-4.8.0.tgz#e58aaf7d373498e32097b705494401e2cc0248eb"
   integrity sha512-J3yM6mOV2weqhzRQb4Ak65jXp/ObboSh5Qwr1roU185ipFRh1hBd7qiCRRfkX+u1UnaZ6XLK/CqwzSlyzSCxlw==
   dependencies:
     "@types/googlemaps" "^3.39.6"
@@ -10155,7 +10155,7 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
 
 netlify-cli@2.62.0:
   version "2.62.0"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.62.0.tgz#5bb01110b3b332b2b7075f48df0137c0e8461e2a"
+  resolved "https://registry.npmjs.org/netlify-cli/-/netlify-cli-2.62.0.tgz#5bb01110b3b332b2b7075f48df0137c0e8461e2a"
   integrity sha512-fjMziW+anU8VUQCZmNJAb+yN6n9O+gTqKXgHRT7lVYCpSyBzQP9dCVNBu8x+kwAR1rfPuQE15h/BfG5O1WuU/w==
   dependencies:
     "@netlify/build" "^3.1.10"
@@ -10568,7 +10568,7 @@ norska-data@^1.0.2:
 
 norska-frontend@^1.0.7:
   version "1.0.7"
-  resolved "https://registry.yarnpkg.com/norska-frontend/-/norska-frontend-1.0.7.tgz#b62e23047709d66b5a91270e00371aeb878770b4"
+  resolved "https://registry.npmjs.org/norska-frontend/-/norska-frontend-1.0.7.tgz#b62e23047709d66b5a91270e00371aeb878770b4"
   integrity sha512-qSzTrmIFwoApEUTJ8xfTTiokeMOmLfrCvUwI0UqxeH+eVafB1E4uE7ePWKM4VttuVMQKf9GlZkMEShOZPeD1ag==
   dependencies:
     algoliasearch "4.4.0"
@@ -10587,7 +10587,7 @@ norska-helper@^1.0.0:
 
 norska-html@^1.0.7:
   version "1.0.7"
-  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-1.0.7.tgz#45db753b28eccaeea03a413fe7f66e0b0657333d"
+  resolved "https://registry.npmjs.org/norska-html/-/norska-html-1.0.7.tgz#45db753b28eccaeea03a413fe7f66e0b0657333d"
   integrity sha512-ucGCvdGrNq6svkTtDV6EpfhJ1OabBGRGdoHwmf9VQq/2kfHrQzu4MRsR9otVQbva4w+VUCk4hL25hkttAKgxEw==
   dependencies:
     ensure-url-trailing-slash "0.1.4"
@@ -10614,7 +10614,7 @@ norska-image-proxy@^1.0.0:
 
 norska-init@^1.0.7:
   version "1.0.7"
-  resolved "https://registry.yarnpkg.com/norska-init/-/norska-init-1.0.7.tgz#b4f0d4fc5c55293e00b96cf5b3efefe6f9c4ef18"
+  resolved "https://registry.npmjs.org/norska-init/-/norska-init-1.0.7.tgz#b4f0d4fc5c55293e00b96cf5b3efefe6f9c4ef18"
   integrity sha512-PJPh0JeCa6dqNyk8pU85MAhnjeiwHeBUI94LD+BSkYAs6m/Au3MPxA3E2obXwZvgWhVAQWYQLCvRjhQiaBUMgA==
   dependencies:
     firost "2.0.5"
@@ -10636,7 +10636,7 @@ norska-js@^1.0.2:
 
 norska-netlify@^1.0.7:
   version "1.0.7"
-  resolved "https://registry.yarnpkg.com/norska-netlify/-/norska-netlify-1.0.7.tgz#1167bd6508b50c6de1fcc262cf5d7aa92cda0eb3"
+  resolved "https://registry.npmjs.org/norska-netlify/-/norska-netlify-1.0.7.tgz#1167bd6508b50c6de1fcc262cf5d7aa92cda0eb3"
   integrity sha512-gFABgo0976iBSffHLGjBLvFqWIyQ7BnMPGvql+UPc+pxLzn9VbC8ADZz0irejM7W+8xDQzooB4By1slS2y8h8g==
   dependencies:
     firost "2.0.5"
@@ -10663,16 +10663,16 @@ norska-theme-default@^1.0.1:
   resolved "https://registry.npmjs.org/norska-theme-default/-/norska-theme-default-1.0.1.tgz#6abc0cd6a720604f7535e0d41405f76e9545cae0"
   integrity sha512-zv4QE0vWhoFeNywQi7/c20YDqFQwIthqqJs1pT1FW+wfoZ3xz0tD7DqILRIxPnFa6VvdilHYFkuMk/xbrn+3+A==
 
-norska-theme-docs@1.0.8:
-  version "1.0.8"
-  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.0.8.tgz#b11b9e4917a2fe87b8be1cc8b9dd2393e7aa9667"
-  integrity sha512-ka8xNjNNZbMkhOghgik888+EY7gzlhkW5zFVt8TR/5FTSYGqWFKhpwdIw9G6W2e3CXrazaReasvaEH9joIoK0A==
+norska-theme-docs@1.0.9:
+  version "1.0.9"
+  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.0.9.tgz#0df03ab325a99a48fcb88b12761ccc30f8218ed3"
+  integrity sha512-Z08iGLvm6mo4ycAK2CPL604ZL3fuXHujNh8/8WAyUkaNUOLFWk94PQUuQeG3e6e9rq4hs0iPBpcpjaxfFcKDkQ==
   dependencies:
     firost "2.0.5"
 
 norska@1.0.7:
   version "1.0.7"
-  resolved "https://registry.yarnpkg.com/norska/-/norska-1.0.7.tgz#f857483b4fc396ab51cb438bc4b59c93c38a6fac"
+  resolved "https://registry.npmjs.org/norska/-/norska-1.0.7.tgz#f857483b4fc396ab51cb438bc4b59c93c38a6fac"
   integrity sha512-yBv1eiorzWcpk69OBOD57lkkM7PiaatZvrH+5ju+T6Jab9ops68DmD9Cmtu4udGsV6nULrL0PznDpscOxkEFjg==
   dependencies:
     firost "2.0.5"

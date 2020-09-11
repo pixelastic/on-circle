@@ -31,5 +31,9 @@
         }
       ]
     }
-  ]
+  ],
+  "docSearch": {
+    "apiKey": "2d2a4ce134f339d2dab57ddbdecd7868",
+    "indexName": "pixelastic_on-circle"
+  }
 }
