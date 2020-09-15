@@ -13,6 +13,7 @@
     "parse-github-repo-url": "1.4.1"
   },
   "homepage": "https://projects.pixelastic.com/on-circle/",
+  "repository": "pixelastic/on-circle",
   "files": ["bin/oncircle", "*.js", "helpers/*.js", "commands/*.js"],
   "license": "MIT",
   "main": "main.js",
