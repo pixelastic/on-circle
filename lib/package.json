@@ -6,9 +6,9 @@
   },
   "dependencies": {
     "@octokit/rest": "18.0.6",
-    "firost": "2.0.5",
+    "firost": "2.0.6",
     "git-remote-origin-url": "3.1.0",
-    "golgoth": "1.4.0",
+    "golgoth": "1.5.0",
     "minimist": "1.2.5",
     "parse-github-repo-url": "1.4.1"
   },
