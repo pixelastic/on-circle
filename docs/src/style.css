@@ -14,4 +14,6 @@ body {
   .theme-title {
     @apply border-red-5;
   }
+
+  --docsearch-primary-color: #f56565;
 }
