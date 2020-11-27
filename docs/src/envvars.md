@@ -1,5 +1,5 @@
 ---
-title: oncircle setenv / oncircle unsetenv
+title: Environment variables
 ---
 
 `on-circle` can set or unset remote `ENV` vars from your CircleCI project

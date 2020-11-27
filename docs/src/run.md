@@ -1,5 +1,5 @@
 ---
-title: run(callback)
+title: Running in a sandbox
 ---
 
 Run any code from inside a CircleCI job sandbox.

@@ -1,5 +1,5 @@
 ---
-title: oncircle follow
+title: Adding a repository
 ---
 
 Tired of manually clicking the CircleCI interface to add a new repository each
