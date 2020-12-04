@@ -12159,10 +12159,10 @@ norska-theme-default@^1.5.0:
   resolved "https://registry.yarnpkg.com/norska-theme-default/-/norska-theme-default-1.5.0.tgz#904c89d0ab01f57cb5694278e24858c059e553d0"
   integrity sha512-iMvDsuvFWI71qAhd5BN8Fp3vPasRvVOS4y31y/TEg/0G/gdMsUa9jcVqeeshxwhR3NHFEfrLbN9T+Gjgog+REw==
 
-norska-theme-docs@1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/norska-theme-docs/-/norska-theme-docs-1.2.6.tgz#71525da14a9e565d58044b05a7fee2cfe8bcc88d"
-  integrity sha512-OaHYSYWChGO0kKA7FPIUUDQU6mMQivRqbgC6xAY/5XX9XOC9f9Dy2qarFf8ckaiJ28b/ffsFiKM9ftSQ/5nesQ==
+norska-theme-docs@1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/norska-theme-docs/-/norska-theme-docs-1.2.7.tgz#0da3cbaf0060192ed334c2cf796c3ec05d2a3b95"
+  integrity sha512-sK6Cn6NTprmPV6lZAnTSlh6DtAsalU8rOCMGpAqqnS5mbNNtjrjV+VoYpwoBsv2Cjf+tnWpfN7A/9x9KIB/Scg==
   dependencies:
     firost "2.0.6"
     parse-github-repo-url "1.4.1"
