@@ -2,16 +2,16 @@
 title: on-circle
 ---
 
-`on-circle` provides a set of utility for configuring and running scripts on
-CircleCI.
-
-You can use it **locally**, to automate the scaffolding of your project, or
+<div class="lead">
+  <code>on-circle</code> provides a set of utility for configuring and running scripts on
+CircleCI. You can use it **locally**, to automate the scaffolding of your project, or
 **remotely**, to simplify some of the most common tasks (push back to a repo,
 release on npm, etc).
+</div>
 
 ```sh
 # Add the current project to CircleCI
-yarn run oncircle follow
+yarn run oncircle add
 # Set an ENV variable
 yarn run oncircle setenv API_KEY=4815162342
 ```

@@ -8,13 +8,13 @@ you.
 
 ```bash
 # From the command line
-yarn run oncircle follow
+yarn run oncircle add
 ```
 
 ```javascript
 // From your script
 const onCircle = require('on-circle');
-await onCircle.follow();
+await onCircle.add();
 ```
 
 Your current repository is now added to CircleCI.
