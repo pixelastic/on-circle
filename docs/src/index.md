@@ -3,10 +3,10 @@ title: on-circle
 ---
 
 <div class="lead">
-  <code>on-circle</code> provides a set of utility for configuring and running scripts on
-CircleCI. You can use it **locally**, to automate the scaffolding of your project, or
-**remotely**, to simplify some of the most common tasks (push back to a repo,
-release on npm, etc).
+  <code>on-circle</code> provides a set of utility for configuring and running
+  scripts on CircleCI. You can use it <code>locally</code>, to automate the
+  scaffolding of your project, or <code>remotely</code>, to simplify some of the
+  most common tasks (push back to a repo, release on npm, etc).
 </div>
 
 ```sh
