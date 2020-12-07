@@ -13,7 +13,7 @@
     "parse-github-repo-url": "1.4.1"
   },
   "homepage": "https://projects.pixelastic.com/on-circle/",
-  "description": "Interface with CircleCI UI from your scripts",
+  "description": "Configure and run scripts on CircleCI",
   "repository": "pixelastic/on-circle",
   "files": [
     "bin/oncircle",

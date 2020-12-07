@@ -1,5 +1,5 @@
 {
-  "description": "Interface with CircleCI UI from your scripts",
+  "description": "Configure and run scripts on CircleCI",
   "title": "on-circle",
   "twitter": "pixelastic",
   "productionUrl": "https://projects.pixelastic.com/on-circle/"
