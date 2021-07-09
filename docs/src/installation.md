@@ -25,7 +25,7 @@ configure CircleCI so it can talk with the GitHub API, as well as give it
 writing rights to the repository.
 
 Fortunately, `on-circle` can do all this configuration automatically, provided
-you have have all the right credentials available.
+you have all the right credentials available.
 
 The way it works is by storing a `GITHUB_TOKEN` as an environment variable on
 your CircleCI project, so CircleCI can create issues through the GitHub API. We
