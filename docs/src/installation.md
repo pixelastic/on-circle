@@ -34,12 +34,12 @@ accept it.
 
 ### 1. Getting a GitHub token
 
-Start by creating a new GitHub token from your [GitHub
-dashboard][2].
+Start by creating a new GitHub token from your [GitHub dashboard][2], and give
+it the `repo` rights.
 
 Be careful, those tokens can do everything the user that created them can do and
-there is no way to scope them to a specific repository (as far as I know; if you know
-better, let me know!).
+there is no way to scope them to a specific repository (as far as I know; if you
+know better, let me know!).
 
 ### 2. Checking that you have `ssh-keygen`
 
