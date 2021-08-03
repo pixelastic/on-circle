@@ -5,7 +5,7 @@
     "oncircle": "bin/oncircle"
   },
   "dependencies": {
-    "@octokit/rest": "18.8.0",
+    "@octokit/rest": "18.9.0",
     "firost": "2.16.2",
     "git-remote-origin-url": "3.1.0",
     "golgoth": "2.0.0",
