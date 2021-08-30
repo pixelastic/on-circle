@@ -16,7 +16,7 @@ dashboard][1].
 
 ## Remote execution
 
-The `.run()` method is meant to be executed on CircleCI machines, and integrate
+The `.run()` method is meant to be executed on CircleCI machines, and integrates
 smoothly with git so it can push back to the repository and file issues in case
 of an error.
 
