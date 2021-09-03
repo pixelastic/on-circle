@@ -10,18 +10,17 @@ Specifically it:
 - Prevent execution if not running on CircleCI
 - Catch errors and create GitHub issues instead
 - Provides syntactic sugar `.success()` and `.error()` methods
-- Provides `gitChangedFiles`, `gitCommitAll` and `gitPush` methods that Just
-  Works™
+- Provides a `repo` [Gilmore](https://projects.pixelastic.com/gilmore/) instance
 
 ```javascript
 // Run this from a job running on CircleCI
 const onCircle = require('on-circle');
 await onCircle.run(
-  async (success, failure, gitChangedFiles, gitCommitAll, gitPush }) => {
+  async (success, failure, repo }) => {
     // Run any custom code here, for example calling
     // external APIs to update some data.
-    // You can even update the repo and push back
-    // using the gitCommitAll() and gitPush() methods
+    // You can even update the repo and push back repo methods (check
+    // https://projects.pixelastic.com/gilmore/ for documentation)
 
     if (everythingIsOk) {
       return success('Everything worked');
