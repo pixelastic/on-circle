@@ -8581,13 +8581,14 @@ gilmore@0.0.3:
     firost "2.16.2"
     golgoth "2.1.0"
 
-gilmore@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/gilmore/-/gilmore-0.0.4.tgz#563a52be4f216589c3e0852a5f48089a5ee2015f"
-  integrity sha512-6t9bGQ6FPQGfPvhfz4tqI0hKSm72yoKBHE/ciJiY9DnsFIJgO+aVwBchGAYEj0zqs/chkdVTBHnIcBudF6AEFQ==
+gilmore@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/gilmore/-/gilmore-0.1.0.tgz#ced4729716df9ee0bcbebaf576cd81ca03d2b021"
+  integrity sha512-dMl5JRwfAPe5sHJkZCWGVoHmeA4yfvcCMMyBuVAHKyOh7bM4v8wt+hrgXdASKahs3hWtkP+oFISx+iotkDzpIw==
   dependencies:
     firost "2.16.4"
     golgoth "2.1.0"
+    parse-github-repo-url "1.4.1"
 
 git-raw-commits@^2.0.8:
   version "2.0.10"
@@ -8599,13 +8600,6 @@ git-raw-commits@^2.0.8:
     meow "^8.0.0"
     split2 "^3.0.0"
     through2 "^4.0.0"
-
-git-remote-origin-url@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/git-remote-origin-url/-/git-remote-origin-url-3.1.0.tgz#c90c1cb0f66658566bbc900509ab093a1522d2b3"
-  integrity sha512-yVSfaTMO7Bqk6Xx3696ufNfjdrajX7Ig9GuAeO2V3Ji7stkDoBNFldnWIAsy0qviUd0Z+X2P6ziJENKztW7cBQ==
-  dependencies:
-    gitconfiglocal "^2.1.0"
 
 git-remote-origin-url@^2.0.0:
   version "2.0.0"
