@@ -8,10 +8,8 @@
     "@octokit/rest": "18.10.0",
     "firost": "2.16.4",
     "gilmore": "0.0.4",
-    "git-remote-origin-url": "3.1.0",
     "golgoth": "2.1.0",
-    "minimist": "1.2.5",
-    "parse-github-repo-url": "1.4.1"
+    "minimist": "1.2.5"
   },
   "homepage": "https://projects.pixelastic.com/on-circle/",
   "description": "Configure and run scripts on CircleCI",
