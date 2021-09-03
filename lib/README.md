@@ -23,11 +23,11 @@ yarn run oncircle setenv API_KEY=4815162342
 // Run this from a job running on CircleCI
 const onCircle = require('on-circle');
 await onCircle.run(
-  async (success, failure, gitChangedFiles, gitCommitAll, gitPush }) => {
+  async (success, failure, repo }) => {
     // Run any custom code here, for example calling
     // external APIs to update some data.
-    // You can even update the repo and push back
-    // using the gitCommitAll() and gitPush() methods
+    // You can even update the repo and push back repo methods (check
+    // https://projects.pixelastic.com/gilmore/ for documentation)
 
     if (everythingIsOk) {
       return success('Everything worked');
