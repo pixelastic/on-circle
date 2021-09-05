@@ -1,8 +1,8 @@
 ---
-title: Running in a sandbox
+title: run
 ---
 
-Run any code from inside a CircleCI job sandbox.
+<div class="lead">Run any code from inside a CircleCI job sandbox.</div>
 
 This methods makes running and debugging code on CircleCI more enjoyable.
 Specifically it:
@@ -10,7 +10,7 @@ Specifically it:
 - Prevent execution if not running on CircleCI
 - Catch errors and create GitHub issues instead
 - Provides syntactic sugar `.success()` and `.error()` methods
-- Provides a `repo` [Gilmore](https://projects.pixelastic.com/gilmore/) instance
+- Provides a [Gilmore](https://projects.pixelastic.com/gilmore/) `repo` instance
 
 ```javascript
 // Run this from a job running on CircleCI
@@ -19,8 +19,8 @@ await onCircle.run(
   async (success, failure, repo }) => {
     // Run any custom code here, for example calling
     // external APIs to update some data.
-    // You can even update the repo and push back repo methods (check
-    // https://projects.pixelastic.com/gilmore/ for documentation)
+    // You can even update the repo and push back
+    // (check https://projects.pixelastic.com/gilmore/ for documentation)
 
     if (everythingIsOk) {
       return success('Everything worked');

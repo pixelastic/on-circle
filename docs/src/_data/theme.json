@@ -10,26 +10,12 @@
       ]
     },
     {
-      "name": "Locally",
-      "links": [
-        {
-          "title": "Adding a repository",
-          "href": "add"
-        },
-        {
-          "title": "Environment variables",
-          "href": "envvars"
-        }
-      ]
+      "name": "Commands",
+      "links": ["follow", "setenv", "unsetenv", "trigger"]
     },
     {
       "name": "Remotely",
-      "links": [
-        {
-          "title": "Running in a sandbox",
-          "href": "run"
-        }
-      ]
+      "links": ["run"]
     }
   ],
   "docSearch": {

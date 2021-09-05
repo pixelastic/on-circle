@@ -7,16 +7,22 @@
 
 <div class="lead">
   <code>on-circle</code> provides a set of utility for configuring and running
-  scripts on CircleCI. You can use it <code>locally</code>, to automate the
-  scaffolding of your project, or <code>remotely</code>, to simplify some of the
-  most common tasks (push back to a repo, release on npm, etc).
+  scripts on CircleCI.
 </div>
 
+It comes with a command line interface to follow a project, set environment
+variables and trigger a specific job. It can also be used in a node script to
+provide a sandboxed environment to execute code on CircleCI.
+
 ```sh
-# Add the current project to CircleCI
-yarn run oncircle add
+# Follow the current project to CircleCI
+yarn run oncircle follow
+
 # Set an ENV variable
 yarn run oncircle setenv API_KEY=4815162342
+
+# Trigger a specific job
+yarn run oncircle trigger dailyUpdate
 ```
 
 ```javascript
@@ -26,8 +32,8 @@ await onCircle.run(
   async (success, failure, repo }) => {
     // Run any custom code here, for example calling
     // external APIs to update some data.
-    // You can even update the repo and push back repo methods (check
-    // https://projects.pixelastic.com/gilmore/ for documentation)
+    // You can even update the repo and push back
+    // (check https://projects.pixelastic.com/gilmore/ for documentation)
 
     if (everythingIsOk) {
       return success('Everything worked');
