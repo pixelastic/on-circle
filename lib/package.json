@@ -9,7 +9,7 @@
     "firost": "2.17.0",
     "gilmore": "0.1.0",
     "golgoth": "2.1.0",
-    "minimist": "1.2.5"
+    "minimist": "1.2.6"
   },
   "homepage": "https://projects.pixelastic.com/on-circle/",
   "description": "Configure and run scripts on CircleCI",
