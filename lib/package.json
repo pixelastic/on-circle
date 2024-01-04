@@ -7,9 +7,9 @@
   "dependencies": {
     "@octokit/rest": "18.12.0",
     "firost": "2.17.0",
-    "gilmore": "0.1.0",
+    "gilmore": "0.2.0",
     "golgoth": "2.1.0",
-    "minimist": "1.2.6"
+    "minimist": "1.2.8"
   },
   "homepage": "https://projects.pixelastic.com/on-circle/",
   "description": "Configure and run scripts on CircleCI",
