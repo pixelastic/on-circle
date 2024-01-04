@@ -8159,32 +8159,6 @@ firost@2.16.2:
     untildify "4.0.0"
     which "2.0.2"
 
-firost@2.16.4:
-  version "2.16.4"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-2.16.4.tgz#4c81b4bff3ea23810ae00e5acacc40f3a81006bf"
-  integrity sha512-Zp3FFt3x7/90VeeXQlXNELsiy6iHO6X/Nv6sgrkLgZmbuFpisO3pf4v5QwgO9fr204rFDBTyzJuxUrwr++3bEQ==
-  dependencies:
-    callsites "3.1.0"
-    chokidar "3.5.2"
-    clear-module "4.1.1"
-    eventemitter2 "6.4.4"
-    execa "5.1.1"
-    find-up "5.0.0"
-    fs-extra "10.0.0"
-    globby "11.0.4"
-    golgoth "2.1.0"
-    inquirer "8.1.2"
-    is-glob "4.0.1"
-    json-stable-stringify "1.0.1"
-    nanoid "3.1.25"
-    normalize-url "6.1.0"
-    ora "5.4.1"
-    std-mocks "1.0.1"
-    strip-ansi "6.0.0"
-    temp-dir "2.0.0"
-    untildify "4.0.0"
-    which "2.0.2"
-
 firost@2.17.0:
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/firost/-/firost-2.17.0.tgz#688574206c845c663fd4b9133a28a5668952095b"
@@ -8607,12 +8581,12 @@ gilmore@0.0.3:
     firost "2.16.2"
     golgoth "2.1.0"
 
-gilmore@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/gilmore/-/gilmore-0.1.0.tgz#ced4729716df9ee0bcbebaf576cd81ca03d2b021"
-  integrity sha512-dMl5JRwfAPe5sHJkZCWGVoHmeA4yfvcCMMyBuVAHKyOh7bM4v8wt+hrgXdASKahs3hWtkP+oFISx+iotkDzpIw==
+gilmore@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/gilmore/-/gilmore-0.2.0.tgz#26f6359a27fd0f59ee049bb70772c041d3dfdc78"
+  integrity sha512-OtbNB76gSrUPzCi9yaChD/CObfN57EhWnUNt2kqr1GgW0K9FBffVcj5K5pb1isxnxJmqreFqVzJyi6CoX3qTpQ==
   dependencies:
-    firost "2.16.4"
+    firost "2.17.0"
     golgoth "2.1.0"
     parse-github-repo-url "1.4.1"
 
@@ -12132,10 +12106,10 @@ minimist@1.2.5, minimist@^1.1.1, minimist@^1.1.3, minimist@^1.2.0, minimist@^1.2
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
-minimist@1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
-  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
+minimist@1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 minipass-collect@^1.0.2:
   version "1.0.2"
