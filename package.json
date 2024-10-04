@@ -2,7 +2,7 @@
   "description": "on-circle monorepo",
   "devDependencies": {
     "aberlaas": "1.25.0",
-    "lerna": "4.0.0"
+    "lerna": "8.1.8"
   },
   "files": [],
   "homepage": "https://projects.pixelastic.com/on-circle/",
