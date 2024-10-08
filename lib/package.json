@@ -5,9 +5,9 @@
     "oncircle": "bin/oncircle"
   },
   "dependencies": {
-    "@octokit/rest": "18.12.0",
+    "@octokit/rest": "21.0.2",
     "firost": "2.17.0",
-    "gilmore": "0.1.0",
+    "gilmore": "1.0.0",
     "golgoth": "2.1.0",
     "minimist": "1.2.6"
   },
