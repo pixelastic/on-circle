@@ -1,7 +1,7 @@
 {
   "description": "on-circle monorepo",
   "devDependencies": {
-    "aberlaas": "1.25.0",
+    "aberlaas": "2.39.2",
     "lerna": "4.0.0"
   },
   "files": [],
